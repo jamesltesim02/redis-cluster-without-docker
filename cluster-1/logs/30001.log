@@ -1,0 +1,55 @@
+15506:C 30 Sep 2020 14:13:09.584 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+15506:C 30 Sep 2020 14:13:09.584 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=15506, just started
+15506:C 30 Sep 2020 14:13:09.584 # Configuration loaded
+15506:M 30 Sep 2020 14:13:09.585 * Increased maximum number of open files to 10032 (it was originally set to 8192).
+15506:M 30 Sep 2020 14:13:09.586 * No cluster configuration found, I'm 07bff0e568c143dce71c2c3b0bca682e86da6075
+15506:M 30 Sep 2020 14:13:09.587 * Running mode=cluster, port=30001.
+15506:M 30 Sep 2020 14:13:09.587 # Server initialized
+15506:M 30 Sep 2020 14:13:09.587 * Ready to accept connections
+15506:signal-handler (1601446480) Received SIGINT scheduling shutdown...
+15506:M 30 Sep 2020 14:14:40.583 # User requested shutdown...
+15506:M 30 Sep 2020 14:14:40.583 * Calling fsync() on the AOF file.
+15506:M 30 Sep 2020 14:14:40.583 # Redis is now ready to exit, bye bye...
+15533:C 30 Sep 2020 14:14:41.832 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+15533:C 30 Sep 2020 14:14:41.832 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=15533, just started
+15533:C 30 Sep 2020 14:14:41.832 # Configuration loaded
+15533:M 30 Sep 2020 14:14:41.833 * Increased maximum number of open files to 10032 (it was originally set to 8192).
+15533:M 30 Sep 2020 14:14:41.834 * Node configuration loaded, I'm 07bff0e568c143dce71c2c3b0bca682e86da6075
+15533:M 30 Sep 2020 14:14:41.834 * Running mode=cluster, port=30001.
+15533:M 30 Sep 2020 14:14:41.834 # Server initialized
+15533:M 30 Sep 2020 14:14:41.834 * Ready to accept connections
+15533:signal-handler (1601446851) Received SIGINT scheduling shutdown...
+15533:M 30 Sep 2020 14:20:51.350 # User requested shutdown...
+15533:M 30 Sep 2020 14:20:51.350 * Calling fsync() on the AOF file.
+15533:M 30 Sep 2020 14:20:51.350 # Redis is now ready to exit, bye bye...
+15598:C 30 Sep 2020 14:22:14.128 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+15598:C 30 Sep 2020 14:22:14.128 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=15598, just started
+15598:C 30 Sep 2020 14:22:14.128 # Configuration loaded
+15598:M 30 Sep 2020 14:22:14.129 * Increased maximum number of open files to 10032 (it was originally set to 8192).
+15598:M 30 Sep 2020 14:22:14.130 * Node configuration loaded, I'm 07bff0e568c143dce71c2c3b0bca682e86da6075
+15598:M 30 Sep 2020 14:22:14.130 * Running mode=cluster, port=30001.
+15598:M 30 Sep 2020 14:22:14.130 # Server initialized
+15598:M 30 Sep 2020 14:22:14.131 * Ready to accept connections
+15598:signal-handler (1601446980) Received SIGTERM scheduling shutdown...
+15598:M 30 Sep 2020 14:23:00.629 # User requested shutdown...
+15598:M 30 Sep 2020 14:23:00.629 * Calling fsync() on the AOF file.
+15598:M 30 Sep 2020 14:23:00.629 # Redis is now ready to exit, bye bye...
+15636:C 30 Sep 2020 14:24:36.223 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+15636:C 30 Sep 2020 14:24:36.223 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=15636, just started
+15636:C 30 Sep 2020 14:24:36.223 # Configuration loaded
+15636:M 30 Sep 2020 14:24:36.224 * Increased maximum number of open files to 10032 (it was originally set to 8192).
+15636:M 30 Sep 2020 14:24:36.225 * Node configuration loaded, I'm 07bff0e568c143dce71c2c3b0bca682e86da6075
+15636:M 30 Sep 2020 14:24:36.225 * Running mode=cluster, port=30001.
+15636:M 30 Sep 2020 14:24:36.226 # Server initialized
+15636:M 30 Sep 2020 14:24:36.226 * Ready to accept connections
+15636:M 30 Sep 2020 14:32:34.945 # configEpoch set to 1 via CLUSTER SET-CONFIG-EPOCH
+15636:M 30 Sep 2020 14:32:34.950 # IP address for this node updated to 127.0.0.1
+15636:M 30 Sep 2020 14:32:37.647 * Replica 127.0.0.1:30006 asks for synchronization
+15636:M 30 Sep 2020 14:32:37.647 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for 'ba35bb06b70531c63f774b697acaaf3162f899bf', my replication IDs are '236302b5d85f8354e6fa348db64c9aa49f47d24e' and '0000000000000000000000000000000000000000')
+15636:M 30 Sep 2020 14:32:37.647 * Replication backlog created, my new replication IDs are '88f2910f8ed9c6f7e259d3cc647bbcd3331e4807' and '0000000000000000000000000000000000000000'
+15636:M 30 Sep 2020 14:32:37.647 * Starting BGSAVE for SYNC with target: disk
+15636:M 30 Sep 2020 14:32:37.647 * Background saving started by pid 15751
+15751:C 30 Sep 2020 14:32:37.648 * DB saved on disk
+15636:M 30 Sep 2020 14:32:37.678 * Background saving terminated with success
+15636:M 30 Sep 2020 14:32:37.679 * Synchronization with replica 127.0.0.1:30006 succeeded
+15636:M 30 Sep 2020 14:32:39.927 # Cluster state changed: ok
